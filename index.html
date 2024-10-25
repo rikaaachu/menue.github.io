@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAP's Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+    </header>
+    <section class="best-seller-section">
+
+        <div class="menu-category full-width">
+            <img src="Specialty.jpg" alt="Specialty">
+            <div class="menu-info">
+                <h2>NAP'S SPECIALTY</h2>
+                <button class="view-more" data-category="specialties">View More</button>
+            </div>
+        </div>
+        
+
+        <div class="menu-category">
+            <img src="soup.jpg" alt="Soup & Appetizers">
+            <div class="menu-info">
+                <h2>SOUP & APPETIZERS</h2>
+                <button class="view-more" data-category="soup">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="side.jpg" alt="Side Orders">
+            <div class="menu-info">
+                <h2>SIDES</h2>
+                <button class="view-more" data-category="side">View More</button>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <img src="group-meals.jpg" alt="Group Meals">
+            <div class="menu-info">
+                <h2>NAP'S GROUP MEALS</h2>
+                <button class="view-more" data-category="group-meals">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="pulutan.jpg" alt="Pulutan">
+            <div class="menu-info">
+                <h2>BEST NAP'S PULUTAN</h2>
+                <button class="view-more" data-category="pulutan">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="sisig.jpg" alt="Seafoods & Sisig">
+            <div class="menu-info">
+                <h2>SEAFOODS & SISIG</h2>
+                <button class="view-more" data-category="sisig">View More</button>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Nap's Sarap Meals">
+            <div class="menu-info">
+                <h2>NAP'S SARAP MEALS</h2>
+                <button class="view-more" data-category="sarap">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Nap's Bestsellers">
+            <div class="menu-info">
+                <h2>NAP'S BESTSELLERS</h2>
+                <button class="view-more" data-category="bestseller">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Nap's Favorite">
+            <div class="menu-info">
+                <h2>NAP'S FAVORITE</h2>
+                <button class="view-more" data-category="favorite">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Vegetable Dishes">
+            <div class="menu-info">
+                <h2>VEGETABLE DISHES</h2>
+                <button class="view-more" data-category="vegetables">View More</button>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Breakfast">
+            <div class="menu-info">
+                <h2>NAP'S BREAKFAST</h2>
+                <button class="view-more" data-category="breakfast">View More</button>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Merienda Special">
+            <div class="menu-info">
+                <h2>MERIENDA SPECIAL</h2>
+                <button class="view-more" data-category="merienda">View More</button>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Gourmet Pizza">
+            <div class="menu-info">
+                <h2>GOURMET PIZZA</h2>
+                <button class="view-more" data-category="pizza">View More</button>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Dessert">
+            <div class="menu-info">
+                <h2>DESSERTS</h2>
+                <button class="view-more" data-category="dessert">View More</button>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Drinks">
+            <div class="menu-info">
+                <h2>DRINKS</h2>
+                <button class="view-more" data-category="drinks">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Tower">
+            <div class="menu-info">
+                <h2>TOWER</h2>
+                <button class="view-more" data-category="tower">View More</button>
+            </div>
+        </div>
+        <div class="menu-category">
+            <img src="group-image.jpg" alt="Alcohol">
+            <div class="menu-info">
+                <h2>ALCOHOL</h2>
+                <button class="view-more" data-category="alcohol">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="drinks-items" class="hidden">
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Milktea">
+                <div class="menu-info">
+                    <h2>MILKTEA</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="milktea">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Hot Coffee">
+                <div class="menu-info">
+                    <h2>HOT COFFEE</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="hot">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Cold Brew">
+                <div class="menu-info">
+                    <h2>COLD BREW</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="brew">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Healthy Juices">
+                <div class="menu-info">
+                    <h2>HEALTHY JUICES</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="juice">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Beverages">
+                <div class="menu-info">
+                    <h2>BEVERAGES</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="beverages">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Fruit Shakes">
+                <div class="menu-info">
+                    <h2>FRUIT SHAKES</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="fruit">View More</button>
+                </div>
+            </div>
+            <div class="menu-category">
+                <img src="group-image.jpg" alt="Cold Drinks">
+                <div class="menu-info">
+                    <h2>COLD DRINKS</h2>
+                    <button class="view-more" data-category="drinks" data-drink-category="cold">View More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-items" class="hidden">
+        <h2 id="menu-category-title">Category</h2>
+        <ul id="menu-list"> </ul>
+        <button id="back-btn">Back to Menu</button>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-list"></ul>
+        <button onclick="checkout()">Checkout</button>
+    </section>    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

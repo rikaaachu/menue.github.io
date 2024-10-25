@@ -1,0 +1,109 @@
+body {
+    font-family: 'Satoshi';
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 1rem;
+    background-color: #ff7f50;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.best-seller-section,
+#drinks-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.menu-category {
+    width: 30%;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-category.full-width {
+    width: 94.7%;
+    margin: 1rem 0;
+}
+
+.menu-category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-info {
+    padding: 0.7rem;
+}
+
+.menu-info h2 {
+    margin: 0.2rem 0;
+}
+
+.view-more {
+    font-family: 'Satoshi';
+    padding: 0.5rem 1rem;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+
+.view-more:hover {
+    background-color: #ff6f3f;
+}
+
+#menu-items,
+#drinks-items {
+    display: none;
+    margin: 2rem 0;
+}
+
+#menu-category-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-list li {
+    background-color: #fff;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#back-btn {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    background-color: #ff6f3f;
+}
